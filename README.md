@@ -3,7 +3,8 @@
 
 ### 📌 Project Overview
 
-Predicting unexpected pedestrian behavior is essential for safe autonomous driving. This project leverages complex motion patterns from *Talchum* (traditional Korean mask dance) data to build a model that can predict non-standard pedestrian behavior, which is often missed by conventional pedestrian datasets. By combining YOLO with a keypoint-based detection system, this project aims to enable autonomous vehicles to respond more swiftly and accurately to unpredictable pedestrian actions.
+Predicting unexpected pedestrian behavior is essential for safe autonomous driving. This project leverages complex motion patterns from **Talchum (traditional Korean mask dance) data to build a model that can predict non-standard pedestrian behavior**
+, which is often missed by conventional pedestrian datasets. By combining YOLO with a keypoint-based detection system, this project aims to enable autonomous vehicles to respond more swiftly and accurately to unpredictable pedestrian actions.
 
 ### 🚀 Key Features
 
