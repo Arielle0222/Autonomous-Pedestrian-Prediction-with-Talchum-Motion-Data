@@ -9,7 +9,7 @@ import pandas as pd
 # 1. JSON 파일이 있는 폴더 경로 설정
 folder_path = '/Users/kimseohee/Desktop/Autonomous-Pedestrian-Prediction-with-Talchum-Motion-Data/Data/Data_TL'
 
-# 2. 사용할 주요 keypoint 목록 설정
+# 2. 사용할 주요 keypoint 목록 설정(총 8개)
 keypoints = ['head', 'neck', 'left_shoulder', 'right_shoulder', 
              'left_ankle', 'right_ankle', 'left_wrist', 'right_wrist']
 
