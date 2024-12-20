@@ -1,3 +1,4 @@
 Data/
 filtered_keypoints_interpolated.csv
 venv/
+.DS_Store
