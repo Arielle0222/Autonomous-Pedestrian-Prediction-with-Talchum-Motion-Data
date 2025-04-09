@@ -9,7 +9,6 @@ Predicting unexpected pedestrian behavior is essential for safe autonomous drivi
 ### 📂 Directory Structure
 ```Autonomous-Pedestrian-Prediction-with-Talchum-Motion-Data/ ├── csv_file/ │ ├── extracted_talchum_important.csv # Key data extracted from Talchum movements │ └── filtered_keypoints.csv # Filtered keypoints data for training ├── presentation/ │ ├── final_presentation.pdf # Korean version of the final presentation │ └── final_presentation_eng.pdf # English version of the final presentation ├── step/ │ ├── step0_move_point_analysis.ipynb # Movement point analysis │ ├── step1_data_preprocessing.py # Data preprocessing script │ ├── step2_EDA_correlation.ipynb # Exploratory Data Analysis (EDA) │ ├── step3_train_yolo_model.py # YOLO model training │ ├── step3.1_train_tutorial.ipynb # YOLO training tutorial (extended) │ ├── step4_prediction_and_results.py # Prediction and result evaluation ├── .gitignore # Git ignore file ├── cover.png # Cover image for the project ├── main.py # Main Python script ├── README.md # Project README (this file) ├── big데이터_김서희.pdf # Additional report in PDF format └── 기타 관련 파일```
 
-
 ### 🚀 Key Features
 
 - **Complex Motion Learning:** Learns various movement patterns in Talchum, enhancing the model's ability to detect unusual pedestrian behavior.
@@ -28,7 +27,6 @@ Correlation Analysis: Shows correlations between height and keypoints for deeper
 - **YOLO (You Only Look Once)**: Primary tool for bounding box-based object detection.
 - **OpenCV**: Used for computer vision processing and keypoint analysis.
 - **Matplotlib & Seaborn**: Libraries for data visualization, heatmaps, and flow mapping.
-
 
 ### 📄 References
 
