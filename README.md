@@ -7,7 +7,27 @@ Predicting unexpected pedestrian behavior is essential for safe autonomous drivi
 , which is often missed by conventional pedestrian datasets. By combining YOLO with a keypoint-based detection system, this project aims to enable autonomous vehicles to respond more swiftly and accurately to unpredictable pedestrian actions.
 
 ### 📂 Directory Structure
-```Autonomous-Pedestrian-Prediction-with-Talchum-Motion-Data/ ├── csv_file/ │ ├── extracted_talchum_important.csv # Key data extracted from Talchum movements │ └── filtered_keypoints.csv # Filtered keypoints data for training ├── presentation/ │ ├── final_presentation.pdf # Korean version of the final presentation │ └── final_presentation_eng.pdf # English version of the final presentation ├── step/ │ ├── step0_move_point_analysis.ipynb # Movement point analysis │ ├── step1_data_preprocessing.py # Data preprocessing script │ ├── step2_EDA_correlation.ipynb # Exploratory Data Analysis (EDA) │ ├── step3_train_yolo_model.py # YOLO model training │ ├── step3.1_train_tutorial.ipynb # YOLO training tutorial (extended) │ ├── step4_prediction_and_results.py # Prediction and result evaluation ├── .gitignore # Git ignore file ├── cover.png # Cover image for the project ├── main.py # Main Python script ├── README.md # Project README (this file) ├── big데이터_김서희.pdf # Additional report in PDF format └── 기타 관련 파일```
+```
+Autonomous-Pedestrian-Prediction-with-Talchum-Motion-Data/
+├── csv_file/
+│ │ ├── extracted_talchum_important.csv/
+│ │ └── filtered_keypoints.csv/
+├── presentation/
+│ │ ├── final_presentation.pdf/
+│ │ └── final_presentation_eng.pdf/
+├── step/
+│ │ ├── step0_move_point_analysis.ipynb/
+│ │ ├── step1_data_preprocessing.py/
+│ │ ├── step2_EDA_correlation.ipynb/
+│ │ ├── step3_train_yolo_model.py/
+│ │ ├── step3.1_train_yolo_tutorial.ipynb/
+│ │ └── step4_prediction_and_results.py/
+├── .gitignore/
+├── README.md/
+├── cover.png/
+├── main.py/
+└── 빅데이터_김서희.pdf/
+```
 
 ### 🚀 Key Features
 
@@ -19,6 +39,8 @@ Key and Keypoint Analysis: Visualizes the relationships between height and keypo
 Correlation Analysis: Shows correlations between height and keypoints for deeper insight into pedestrian behaviors.
 
 ### 📼 Presentation ([watch here!](https://youtu.be/ZgqAdSvPlhI))
+📌 **Presentation Slides** : [📄 Download the PDF](presentation/final_presentation_eng.pdf)
+
 ![cover](cover.png)
 
 ### 🛠️ Tools Used
